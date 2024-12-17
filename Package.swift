@@ -11,9 +11,9 @@ let package = Package(
     products: [
         .library(
             name: "StoriIncodeSPM",
-            targets: ["StoriIncodeSPM"]
-        ),
+            targets: ["StoriIncodeSPM"]),
     ],
+    dependencies: [],
     targets: [
         .binaryTarget(
             name: "StoriIncodeSPM",
